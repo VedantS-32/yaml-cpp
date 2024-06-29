@@ -2,7 +2,7 @@ project "yaml-cpp"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++20"
-	staticruntime "on"
+	staticruntime "off"
 	systemversion "latest"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
@@ -12,7 +12,6 @@ project "yaml-cpp"
 	{
 		"src/**.h",
 		"src/**.cpp",
-		
 		"include/**.h"
 	}
 
