@@ -15,13 +15,11 @@ project "yaml-cpp"
 		"include/**.h"
 	}
 
-	includedirs
-	{
+	includedirs {
 		"include"
 	}
 
-	defines
-	{
+	defines {
 		"YAML_CPP_STATIC_DEFINE"
 	}
 
