@@ -4,6 +4,7 @@ project "yaml-cpp"
 	cppdialect "C++20"
 	staticruntime "off"
 	systemversion "latest"
+	flags { "MultiProcessorCompile" }
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
